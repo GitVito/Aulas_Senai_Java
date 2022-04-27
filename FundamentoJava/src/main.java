@@ -120,15 +120,18 @@ public class main {
 		// x++ Significa: "Pega o valor que está aqui dentro, adiciona 1" | "se quiser adicionar mais é x+=2" funciona também com * (multiplicar)
 		// | 1= valor da variável | 2= valor condicional | 3= incremento|
 		
+		
+		//--___----___Tabuada--___----___\\
+		
 		Scanner a = new Scanner(System.in);
 		
 		System.out.println("Digte o número da tabuada que você deseja:");
-		 int x = a.nextInt();
+		 int y = a.nextInt();
 		
 		
-		for (int y=x; y==x*10; y+=x) {
+		for (int x=0; x<=10; x++) {
 
-			System.out.println(y);
+			System.out.println(y + " x " + x + " = " + x*y);
 		}
 		
 		
