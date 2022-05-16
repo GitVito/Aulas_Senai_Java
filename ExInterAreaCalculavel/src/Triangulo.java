@@ -1,5 +1,5 @@
 
-public class Retangulo implements AreaCalculavel {
+public class Triangulo implements AreaCalculavel {
 
 	@Override
 	public void calcularArea() {
@@ -7,5 +7,4 @@ public class Retangulo implements AreaCalculavel {
 		
 	}
 
-	
 }
