@@ -137,56 +137,86 @@ public class main {
 //		
 //		
 
+//		
+//		
+//		int x1 = 3;
+//		int y1 = 3;
+//		int z1 = 3;
+//		
+//		
+//			System.out.println(x1);
+//			System.out.println(y1);
+//			System.out.println(z1);
+//			
+//				double x [] = {3, 5, 3, 5};
+//				
+//					for (int aux = 0; aux < x.length; aux++) {
+//						System.out.println("Valor do indice " + aux + " = " + x[aux]);
+//						
+//				}
+//						String nome[] = { "Rafael", "Gislene", "Lara"};
+//						
+//					for (int aux1 = 0; aux1 < nome.length; aux1++) {
+//						System.out.println(nome[aux1]);
+//						 if (nome[aux1] == "Gislene") {
+//							 System.out.println("O indice de Gislene é = " + aux1);
+//						 }
+//					}	
+//					
+//					
+//					int[] arrayInt = new int[5];
+////					String[] ArrayString = new String[4];
+////					double[] ArrayDouble = new double[3];
+////					
+////					 arrayInt[3] = 4;
+////					 
+//					int[] numero = new int[6];
+//					Scanner teclado = new Scanner(System.in);
+//					
+//					
+//					for (int aux2 = 0; aux2 < numero.length; aux2 ++) {
+//						System.out.println("Digite um número qualquer");
+//						 numero[aux2] = teclado.nextInt();
+//						 
+//					}
+//					
+//					for (int aux2 = 0; aux2 < numero.length; aux2 ++) {
+//						System.out.println("Indice " + aux2 + " = " + numero[aux2]);
+//						 
+//					}
+//		
+//					
 		
-		
-		int x1 = 3;
-		int y1 = 3;
-		int z1 = 3;
-		
-		
-			System.out.println(x1);
-			System.out.println(y1);
-			System.out.println(z1);
+			int[] arrayQualquer = new int[3];
 			
-				double x [] = {3, 5, 3, 5};
-				
-					for (int aux = 0; aux < x.length; aux++) {
-						System.out.println("Valor do indice " + aux + " = " + x[aux]);
-						
-				}
-						String nome[] = { "Rafael", "Gislene", "Lara"};
-						
-					for (int aux1 = 0; aux1 < nome.length; aux1++) {
-						System.out.println(nome[aux1]);
-						 if (nome[aux1] == "Gislene") {
-							 System.out.println("O indice de Gislene é = " + aux1);
-						 }
-					}	
 					
+					Object[] arrayObject = new Object[4]; //Criando uma array genérica com a "classe superior" Object
 					
-					int[] arrayInt = new int[5];
-					String[] ArrayString = new String[4];
-					double[] ArrayDouble = new double[3];
-					
-					 arrayInt[3] = 4;
+					 arrayObject[0] = 12;
+					 arrayObject[1] = "Victor";
+					 arrayObject[2] = 13.8;
+					 arrayObject[3] = true;
+					 arrayObject[4] = arrayQualquer;
 					 
-					int[] numero = new int[6];
-					Scanner teclado = new Scanner(System.in);
+					 
+					 for (int aux2 = 0; aux2 < arrayObject.length; aux2 ++) {
+							System.out.println("Indice " + aux2 + " = " + arrayObject[aux2]);							 
+						}
+					 
 					
+					 
+					 int[][] arrayBidirecional = new int[3][3];
+					 
+					 	for  (int linha = 0; linha < arrayBidirecional.length; linha++) {
+					 		System.out.println("Indice [" + linha + "] [" + coluna + "] = " + arrayBidirecional [linha][coluna]);
+					 	} 
+					 
+					 
+					 
+					 
+					 
+					 
 					
-					for (int aux2 = 0; aux2 < numero.length; aux2 ++) {
-						System.out.println("Digite um número qualquer");
-						 numero[aux2] = teclado.nextInt();
-						 
-					}
-					
-					for (int aux2 = 0; aux2 < numero.length; aux2 ++) {
-						System.out.println("Indice " + aux2 + " = " + numero[aux2]);
-						 numero[aux2] = teclado.nextInt();
-						 
-					}
-		
-			
 		}	
 			
 
