@@ -1,1 +1,4 @@
-Texto para ser gravado no arquivo
+ Cheiro do sabonete: Lavanda
+ cor do saboneteBranco  Cheiro do sabonete: Floresta
+ cor do saboneteVerde  Cheiro do sabonete: Tapioca
+ cor do saboneteAmarelo 
