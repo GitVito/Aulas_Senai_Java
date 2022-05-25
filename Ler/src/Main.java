@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) throws FileNotFoundException, IOException  {
 		// TODO Auto-generated method stub
 		
-		try(BufferedReader reader = new BufferedReader (new FileReader("Arquivo.txt"))){
+		try(BufferedReader reader = new BufferedReader (new FileReader("arquivo.txt"))){
 			String line;
 			String string = "";
 			
@@ -20,6 +20,15 @@ public class Main {
 			
 		}
 			
+		
+				Sabonete sabonete1 = new Sabonete("Azedo", "Verde");
+				String s = sabonete1.toString();
+				
+				 String teste = "Sabonete: cheiro=Azedo, cor=Verde";
+				 
+				 Sabonete sabonete2 = new Sabonete(teste);
+				 
+				 System.out.println(sabonete2);
 			
 		
 
