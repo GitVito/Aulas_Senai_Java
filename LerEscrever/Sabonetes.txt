@@ -1,0 +1,1 @@
+Sabonetee cheiro=Lavanda, cor=Branco Sabonetee cheiro=Floresta, cor=Verde Sabonetee cheiro=Tapioca, cor=Amarelo 

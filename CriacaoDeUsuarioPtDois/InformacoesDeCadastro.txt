@@ -1,0 +1,8 @@
+
+ Pessoa nome = 2
+ idade = 2, 
+ Endereco: 
+ Bairro = 2
+ Número = 2
+ Rua = 2
+ Sexo= FEMININO

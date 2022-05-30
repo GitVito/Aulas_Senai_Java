@@ -36,7 +36,7 @@ public class Pessoa {
 	}
 	@Override
 	public String toString() {
-		return "Pessoa nome = " + nome + ", idade = " + idade + ", \n Endereco: " + ", Bairro = " + endereco.getBairro() + ", Número = " + endereco.getRua() + ", Rua = " + endereco.getNum() + ", Sexo= " + sexo + "  ";
+		return "\n Pessoa nome = " + nome + "\n idade = " + idade + ", \n Endereco: " + "\n Bairro = " + endereco.getBairro() + "\n Número = " + endereco.getRua() + "\n Rua = " + endereco.getNum() + "\n Sexo= " + sexo;
 	}
 	
 	
