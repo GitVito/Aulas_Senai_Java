@@ -1,8 +1,1 @@
-
- Pessoa nome = 2
- idade = 2, 
- Endereco: 
- Bairro = 2
- Número = 2
- Rua = 2
- Sexo= FEMININO
+Pessoa [nome=victor, idade=1, endereco=Endereco [rua=1, bairro=1, num=1], sexo=MASCULINO]Pessoa [nome=1, idade=11, endereco=Endereco [rua=1, bairro=1, num=1], sexo=MASCULINO]Pessoa [nome=1, idade=1, endereco=Endereco [rua=1, bairro=1, num=1], sexo=MASCULINO]Pessoa [nome=2, idade=2, endereco=Endereco [rua=2, bairro=2, num=22], sexo=FEMININO]
