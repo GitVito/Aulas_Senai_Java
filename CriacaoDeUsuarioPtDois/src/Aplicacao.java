@@ -17,7 +17,7 @@ public class Aplicacao {
 
 		for (int x = 0; x < 4; x++) {
 
-			Pessoa pessoa = new Pessoa(); //Fica dentro do for, pois irá criar um objeto para cada sequência de informações, se ficar do lado de fora, as informações irão ser gravadas em um objeto só
+			Pessoa pessoa = new Pessoa(); //Fica dentro do for, pois irÃ¡ criar um objeto para cada sequÃªncia de informaÃ§Ãµes, se ficar do lado de fora, as informaÃ§Ãµes irÃ£o ser gravadas em um objeto sÃ³
 			pessoa.setEndereco(new Endereco()) ;
 
 			System.out.println("Digite seu nome:");
@@ -27,38 +27,37 @@ public class Aplicacao {
 			pessoa.idade = entrada.nextInt();
 
 			System.out.println("Digite seu Bairro:");
-			pessoa.getEndereco().setBairro(entrada.next());
+			pessoa . getEndereco (). setBairro ( entrada . prÃ³ximo ()); //Com o mÃ©todo get pegamos o determinado atributo, e com o set, alteramos esse atributo
 
-			System.out.println("Digite o nome da sua rua:");
+			Sistema . fora . println ( "Digite o nome da sua rua:");
 			pessoa.getEndereco().setRua(entrada.next());
 
 			System.out.println("Digite o numero da sua residencia:");
 			pessoa.getEndereco().setNum(entrada.nextInt());
 
-			System.out.println("Digite 1, caso você seja do sexo Masculino, e 2 se for do sexo Feminino");
+			System.out.println("Digite 1, caso vocÃª seja do sexo Masculino, e 2 se for do sexo Feminino");
 
 			
 			int pe = 0;
 	
 			
-			while (pe != 1 && pe != 2) {
+			while (pe != 1 && pe != 2) //enquanto a pessoa digitar um valor diferente de 1 e 2, o conteudo dentro do while sera reproduzido.
 				
-				pe = entrada.nextInt();
-				
+				pe = entrada.nextInt(); //a variavel vai receber o valor que a pessoa digitar quando estiver realizando o cadastro				
 			if (pe == 1) {
 
-				Sexo sexo = Sexo.MASCULINO;
-				pessoa.setSexo(sexo);
-			} else if (pe == 2) {
+				Sexo  sexo  = Sexo . MASCULINO ; //criamos uma variavel do tipo Sexo, que foi o Enum que criamos anteriormente, fazemos esta variavel receber o valor mas cr masculino 
+				pessoa . setSexo ( sexo ); //com o metodo set, altramos o atributo de pessoa e acrescentamos o sexo masculino. Isso tudo se a pessoa tiver digitado 1,  se ela tiver digitado 2, sera o mesmo processo, contudo em vez de masculino, sera feminino.
+			} senÃ£o   if ( pe   ==   2 ) {
 				Sexo sexo = Sexo.FEMININO;
 				pessoa.setSexo(sexo);
-			} else {
-				System.out.println("Você digitou um número fora das opções, tente novamente");
+			} else { // se a pessoa digitar um numero diferente de 1 e 2, nao sera aceito
+				Sistema . fora . println ( "VocÃª digitou um nÃºmero de opÃ§Ãµes, tente novamente");
 			}
 
 			} 	
 			
-			listaPessoa.add(pessoa);
+			listaPessoa.add(pessoa); //ira adicionar todas as informacoes dentro da lista
 
 		}
 
