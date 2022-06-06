@@ -1,7 +1,7 @@
 
 public abstract class ContaBancaria {
 	
-	protected double saldo = 100;
+	protected double saldo = 100; //Atributos protegidos definem a visibilidade apenas para a própria classe, e para outras estendidas
 	
 	
 	//Metodos
