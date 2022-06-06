@@ -8,13 +8,13 @@ public class Aplicacao {
 		// TODO Auto-generated method stub
 
 		Scanner entrada = new Scanner(System.in);
-		List lista = new ArrayList();
+		List lista = new ArrayList(); //Lista genérica
 		
 		
 		
 		 	for (int x=0; x < 4; x++) {
 		 		
-		 			Conta usuario = new Conta();
+		 			Conta usuario = new Conta(); 
 		 			Endereco endereco = new Endereco();	
 
 		 		System.out.println("Digite seu nome: ");
@@ -38,7 +38,7 @@ public class Aplicacao {
 		 	}
 		 		
 		
-		 	for (Object valor : lista) {
+		 	for (Object valor : lista) { //enhanced-for
 		 		System.out.println(valor);
 		 	}
 		
