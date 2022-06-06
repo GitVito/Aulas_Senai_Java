@@ -3,9 +3,10 @@ public class Conta {
 
 	String nome;
 	int idade;
-	Object endereco;
+	Object endereco; //Do tipo Object
 	
 	
+	//Metodos Get and Setter
 	
 	public String getNome() {
 		return nome;
@@ -20,7 +21,7 @@ public class Conta {
 		this.idade = idade;
 	}
 	
-	@Override
+	@Override //Override, que sobrescreve o metodo toString / Override serve para editarmos um metodo
 	public String toString() {
 		return "Conta [nome=" + nome + ", idade=" + idade + ", endereco=" + endereco + "]";
 	}
