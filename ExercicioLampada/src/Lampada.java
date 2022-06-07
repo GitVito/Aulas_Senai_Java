@@ -8,7 +8,7 @@ public class Lampada {
 //	public Lampada(String msg) {
 //		
 //		if (ligada==true) {
-//		this.msg = "Lampada ligada";
+//		this.msg = "Lampada ligada"; //This = Usado para referenciar um atributo fora do metodo
 //	 }
 //		else {
 //			this.msg = "Lampada desligada";
@@ -18,7 +18,7 @@ public class Lampada {
 //	}
 
 
-	public Lampada(boolean ligada) { //construtor
+	public Lampada(boolean ligada) { //construtor, podemos gerar ele apertando o botão direito do mouse, indo em source e clicar na opçao para criar construtores
 	
 	}
 
